@@ -6,7 +6,7 @@ const port = 3001;
 const host = '0.0.0.0';
 const dbManager = require('./db/dbManager');
 
-const allowedOrigins = ['https://bandafollo.no', 'http://localhost:5173'];
+const allowedOrigins = ['https://bandafollo.no', 'https://bandafollo.netlify.app', 'http://localhost:5173'];
 
 const corsOptions = {
     origin: (origin, callback) => {
